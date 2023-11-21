@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "M101",
+    "name": "LEARNING OBJECTIVES",
+    "description_1": "Introduction to the course",
+    "description_2": "Learning what is Web Development",
+    "description_3": "Creating a development environment",
+    "course": "RS101"
+  },
+  {
+    "_id": "M102",
+    "name": "Reading",
+    "description_1": "Full Stack Developer - Chapter 1 - Introduction",
+    "description_2": "Full Stack Developer - Chapter 2 - Creating User",
+    "description_3": "Interfaces with HTML",
+    "course": "RS101"
+  },
+  {
+    "_id": "M103",
+    "name": "Slides",
+    "description_1": "Introduction to Web Development",
+    "description_2": "Creating an HTTP server with Node.js",
+    "description_3": "Creating a React Application",
+    "course": "RS101"
+  },
+  {
+    "_id": "M201",
+    "name": "Fundamentals of Aerodynamics",
+    "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+    "course": "RS102"
+  },
+  {
+    "_id": "M202",
+    "name": "Subsonic and Supersonic Flow",
+    "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+    "course": "RS102"
+  },
+  {
+    "_id": "M203",
+    "name": "Aerodynamic Heating",
+    "description": "Study of aerodynamic heating and thermal protection systems.",
+    "course": "RS102"
+  },
+  {
+    "_id": "M301",
+    "name": "Spacecraft Structural Design",
+    "description": "Fundamentals of designing spacecraft structures and materials selection.",
+    "course": "RS103"
+  },
+  {
+    "_id": "M302",
+    "name": "Orbital Mechanics",
+    "description": "Understanding orbital dynamics and mission planning.",
+    "course": "RS103"
+  },
+  {
+    "_id": "M303",
+    "name": "Spacecraft Systems Engineering",
+    "description": "Overview of spacecraft systems and subsystems engineering.",
+    "course": "RS103"
+  }
+]
