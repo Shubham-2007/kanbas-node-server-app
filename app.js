@@ -1,6 +1,6 @@
 import express from "express";
 import "dotenv/config";
-// import Hello from "./hello.js"
+import Hello from "./hello.js"
 import Lab5 from "./Lab5.js";
 import cors from "cors";
 import CourseRoutes from "./courses/routes.js";
@@ -12,5 +12,5 @@ app.use(express.json());
 ModuleRoutes(app);
 CourseRoutes(app);
 Lab5(app);
-// Hello(app)
+Hello(app)
 app.listen(process.env.PORT || 4000);
