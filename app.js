@@ -9,7 +9,7 @@ import CourseRoutes from "./courses/routes.js";
 import ModuleRoutes from "./modules/routes.js";
 import mongoose from "mongoose";
 import UserRoutes from "./users/routes.js";
-const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas'
+const CONNECTION_STRING = "mongodb+srv://giuseppi:supersecretpassword@kanbasmongo.epaegk0.mongodb.net/kanbas?retryWrites=true&w=majority" 
 mongoose.connect(CONNECTION_STRING);
 
 const app = express();
